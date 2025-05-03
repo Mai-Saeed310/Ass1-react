@@ -1,16 +1,16 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
+
 export default function Navbar() {
   return (
-    <>
-        <nav>
-            <a class="logo">Logo</a>
-            <a class="nav-items"  href="#Home">Home</a>
-            <a class="nav-items"  href="#About">About</a>
-            <a class="nav-items"  href="#Courses">Courses</a>
-            <a class="nav-items"  href="#Contact">Contact</a>
-        </nav>
-    </>
-
-  )
+    <nav className="navbar">
+      <div className="logo">EduSpace</div>
+      <ul className="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  );
 }

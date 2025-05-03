@@ -1,9 +1,10 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
+
 export default function Footer() {
   return (
-    <footer>
-      <p> &copy; All rights reserved | My Web Site 2025</p>
+    <footer className="footer">
+      <p>&copy; 2025 EduSpace. Empowering Minds, Shaping Futures.</p>
     </footer>
-  )
+  );
 }
